@@ -34,7 +34,7 @@ class Database:
         if not self.transaction_in_progress:
             return "Error transaction not in progress"
         self.transaction_data.clear()
-        return "Successfully rolledbacked"
+        return "Successful rollback"
 
 
 # Example usage:
